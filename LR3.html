@@ -1,0 +1,24 @@
+<html>
+ <head>
+    <title>Форма</title>
+  </head>
+ <body>
+  <form action="login.php" method="post">
+  <FIELDSET> <LEGEND>Персональная информация</LEGEND>   
+  <p>Фамилия <input type="text" name="surname"> Имя <input type="text" name="name"></p></FIELDSET>
+  <FIELDSET> <LEGEND>Информация о почтовом ящике</LEGEND>  
+  <p>
+  Адрес: <input type="text" name="address"><br>
+  Пароль: <input type="text" name="password">
+  Подтверждение пароля: <input type="text" name="password"></p></FIELDSET>
+   <FIELDSET> <LEGEND>Дополнительные сведения</LEGEND>  
+  <p>Желаете получать рекламные рассылки? <input type="radio" name="reklama"> Да
+  <input type="radio" name="reklama"> Нет<br>
+  Желаете получать прогноз погоды на каждый день? <input type="radio" name="pogoda"> Да
+  <input type="radio" name="pogoda"> Нет
+  </p></FIELDSET>
+  <input type="submit" value="Регистрация">
+  <input type="reset" value="Сброс">
+</form>	
+ </body>
+</html>

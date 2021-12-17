@@ -1,0 +1,55 @@
+<html>
+ <head>
+    <title>Форма</title>
+  </head>
+ <body>
+  <form action="login.php" method="post">
+  <FIELDSET> <LEGEND>Персональная информация</LEGEND>   
+  <p>Фамилия <input type="text" name="surname"> Имя <input type="text" name="name">
+  Возраст <select>
+  <option value="1">моложе 18</option>
+  <option value="2">18-30</option>
+  <option value="3">31-45</option>
+  <option value="4">старше 45</option>
+</select><br>
+  Сфера деятельности <br><input type="checkbox" name="rd"> Информационные технологии
+  <input type="checkbox" name="rd"> Администрация
+  <input type="checkbox" name="rd"> Архитектура, строителььство
+  <input type="checkbox" name="rd"> Туризм
+  <input type="checkbox" name="rd"> СМИ, полиграфия
+  <input type="checkbox" name="rd"> Культура и исскуство
+  <input type="checkbox" name="rd"> Маркетинг и реклама
+  <input type="checkbox" name="rd"> Медицина
+  <input type="checkbox" name="rd"> Наука и образование
+  <input type="checkbox" name="rd"> Недвижимость
+  <input type="checkbox" name="rd"> Продажи
+  <input type="checkbox" name="rd"> Промышленность
+  <input type="checkbox" name="rd"> Сельское хозяйство
+  <input type="checkbox" name="rd"> Страхование
+  <input type="checkbox" name="rd"> Сфера обслуживания
+  <input type="checkbox" name="rd"> Телекомуникации
+  <input type="checkbox" name="rd"> Транспорт, логистика
+  <input type="checkbox" name="rd"> Управление персоналом
+  <input type="checkbox" name="rd"> Юриспруденция
+  <input type="checkbox" name="rd"> Волонтёр
+  <input type="checkbox" name="rd"> Студент (учащийся)
+  <input type="checkbox" name="rd"> Пенсионер
+  <input type="checkbox" name="rd"> Безработный
+  <input type="checkbox" name="rd"> Другое
+  </p></FIELDSET>
+  <FIELDSET> <LEGEND>Информация о почтовом ящике</LEGEND>  
+  <p>
+  Адрес: <input type="text" name="address"><br>
+  Пароль: <input type="text" name="password">
+  Подтверждение пароля: <input type="text" name="password"></p></FIELDSET>
+   <FIELDSET> <LEGEND>Дополнительные сведения</LEGEND>  
+  <p>Желаете получать рекламные рассылки? <input type="radio" name="reklama"> Да
+  <input type="radio" name="reklama"> Нет<br>
+  Желаете получать прогноз погоды на каждый день? <input type="radio" name="pogoda"> Да
+  <input type="radio" name="pogoda"> Нет
+  </p></FIELDSET>
+  <input type="submit" value="Регистрация">
+  <input type="reset" value="Сброс">
+</form>	
+ </body>
+</html>
